@@ -4,5 +4,35 @@ Atividade prática proposta pelo prof. Márcio Dorn na disciplina de Aprendizado
 
 ## Desafio Titanic
 
+Notebooke_01
+
+Desafio: Construção de um modelo que prediga quais passageiros sobrevivêm ao naufrágio.
+
+Conjunto de dados:
+	Passageiros: 891 
+		Name (str) - Name of the passenger
+		Pclass (int) - Ticket class
+		Sex (str) - Sex of the passenger
+		Age (float) - Age in years
+		SibSp (int) - Number of siblings and spouses aboard
+		Parch (int) - Number of parents and children aboard
+		Ticket (str) - Ticket number
+		Fare (float) - Passenger fare
+		Cabin (str) - Cabin number
+		Embarked (str) - Port of embarkation
+
+		
+
+
+Notebook_02
+
+
+
+Notebook_03
+
+
+
+Notebook_04
+
 
 
