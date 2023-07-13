@@ -9,7 +9,7 @@ Notebooke_01
 Desafio: Construção de um modelo que prediga quais passageiros sobrevivêm ao naufrágio.
 
 Conjunto de dados:
-	Passageiros: 891 
+	891 passageiros: 
 		Name (str) - Name of the passenger
 		Pclass (int) - Ticket class
 		Sex (str) - Sex of the passenger
@@ -21,7 +21,6 @@ Conjunto de dados:
 		Cabin (str) - Cabin number
 		Embarked (str) - Port of embarkation
 
-		
 
 
 Notebook_02
