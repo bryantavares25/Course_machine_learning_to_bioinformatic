@@ -21,6 +21,14 @@ Conjunto de dados:
 		Cabin (str) - Cabin number
 		Embarked (str) - Port of embarkation
 
+Read in Data >
+	Importando bibliotecas
+	Importando os dados no formato csv como objeto pandas
+Limpando variáveis contínuas >
+	Idade
+	Irmãos e parentes -> family_cnt
+Limpando variáveis categóricas >
+
 
 
 Notebook_02
@@ -32,6 +40,10 @@ Notebook_03
 
 
 Notebook_04
+
+
+
+Notebook_05
 
 
 
