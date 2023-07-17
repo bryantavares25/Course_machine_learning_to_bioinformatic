@@ -23,6 +23,11 @@ Conjunto de dados:
 
 Read in Data >
 	Importando bibliotecas
+		import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
 	Importando os dados no formato csv como objeto pandas
 Limpando variáveis contínuas >
 	Idade
