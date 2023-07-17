@@ -4,7 +4,7 @@ Atividade prática proposta pelo prof. Márcio Dorn na disciplina de Aprendizado
 
 ## Desafio Titanic
 
-Notebooke_01
+### Notebooke_01
 
 Desafio: Construção de um modelo que prediga quais passageiros sobrevivêm ao naufrágio.
 
@@ -28,10 +28,11 @@ Limpando variáveis contínuas >
 	Idade
 	Irmãos e parentes -> family_cnt
 Limpando variáveis categóricas >
+	Cabine
+	Sexo
+Crianco arquivo com dados limpos > 'titanic_cleaned.csv'
 
-
-
-Notebook_02
+### Notebook_02
 
 
 
