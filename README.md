@@ -85,8 +85,7 @@ Indução do modelo de Multilayer perceptrion >
 		import warnings
 		warnings.filterwarnings('ignore')
 		from sklearn.metrics import confusion_matrix
-
-
+	Busca por hiperparametros utilizando gridsearch >
 
 
 Notebook_04
