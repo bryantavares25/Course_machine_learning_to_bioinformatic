@@ -87,9 +87,9 @@ Indução do modelo de Multilayer perceptrion >
 		from sklearn.metrics import confusion_matrix
 	Busca por hiperparametros utilizando gridsearch >
 
+### Notebook_04
 
-Notebook_04
-
+Leitura dos dados >
 
 
 Notebook_05
