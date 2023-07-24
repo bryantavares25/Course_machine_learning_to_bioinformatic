@@ -4,11 +4,11 @@ Atividade prática proposta pelo prof. Márcio Dorn na disciplina de Aprendizado
 
 ## Desafio Titanic
 
-### Notebooke_01
-
 Desafio: Construção de um modelo que prediga quais passageiros sobrevivêm ao naufrágio.
 
-Conjunto de dados:
+### Notebooke_01
+
+Conjunto de dados >
 	891 passageiros: 
 		Name (str) - Name of the passenger
 		Pclass (int) - Ticket class
@@ -21,13 +21,12 @@ Conjunto de dados:
 		Cabin (str) - Cabin number
 		Embarked (str) - Port of embarkation
 
-Read in Data >
+Leitura dos dados >
 	Importando bibliotecas
 		import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import seaborn as sns
-
+		import numpy as np
+		import pandas as pd
+		import seaborn as sns
 	Importando os dados no formato csv como objeto pandas
 Limpando variáveis contínuas >
 	Idade
@@ -35,9 +34,22 @@ Limpando variáveis contínuas >
 Limpando variáveis categóricas >
 	Cabine
 	Sexo
-Crianco arquivo com dados limpos > 'titanic_cleaned.csv'
+Criando arquivo com dados limpos > 'titanic_cleaned.csv'
 
 ### Notebook_02
+
+Leitura dos dados >
+	Importando bibliotecas
+		import pandas as pd
+		from sklearn.model_selection import train_test_split
+		import plotly.express as px
+		import plotly.express as px
+		from sklearn.decomposition import PCA
+	Visualizando os dados de acordo com as características (feat*ures) através de uma 'Scatter matrix' e sobrrevivência como 'Label'
+	Redução de dimensionalidade através do PCA (Principal component analysis) de 2 componentes (dá para brincar tirando as caracterísitcas para observar qual tem mais efeito sobre a correlação dos dados)
+
+Fracionamento dos dados entre dados de treino, validação e teste
+
 
 
 
