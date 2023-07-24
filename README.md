@@ -90,9 +90,21 @@ Indução do modelo de Multilayer perceptrion >
 ### Notebook_04
 
 Leitura dos dados >
+	Importando bibliotecas >
+		import joblib
+		import pandas as pd
+		from sklearn.model_selection import GridSearchCV
+		from sklearn.neural_network import MLPClassifier
+		import warnings
+		warnings.filterwarnings('ignore', category=FutureWarning)
+		warnings.filterwarnings('ignore', category=DeprecationWarning)
+		import pandas as pd
+		from sklearn.model_selection import train_test_split
 
 
-Notebook_05
+Multilayer Perceptron: Fit and evaluate a model > In this section, we will fit and evaluate a simple Multilayer Perceptron model.
+
+### Notebook_05
 
 
 
