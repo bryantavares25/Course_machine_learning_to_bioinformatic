@@ -122,13 +122,11 @@ Leitura dos dados >
 			SMOTE is an oversampling method that synthesizes new plausible examples in the minority class.
 			Tomek Links refers to a method for identifying pairs of nearest neighbors in a dataset that have different classes. Removing one or both of the examples in these pairs (such as the examples in the majority class) has the effect of making the decision boundary in the training dataset less noisy or ambiguous.
 			Specifically, first the SMOTE method is applied to oversample the minority class to a balanced distribution, then examples in Tomek Links from the majority classes are identified and removed.
-
-			
-
-
-Multilayer Perceptron: Fit and evaluate a model > In this section, we will fit and evaluate a simple Multilayer Perceptron model.
+		Multilayer Perceptron: Fit and evaluate a model > In this section, we will fit and evaluate a simple Multilayer Perceptron model.
 
 ### Notebook_05
-
-
+	Leitura dos dados >
+	
+	
+	Seleção de características (Feature selection) >
 
