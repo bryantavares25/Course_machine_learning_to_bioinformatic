@@ -60,7 +60,32 @@ Criando arquivos com os dados fracionados tanto a versão com as característica
 
 ### Notebook_03
 
-Multilayer Perceptron: Fit and evaluate a model
+Leitura dos dados >
+	Importando bibliotecas >
+		import joblib import pandas as pd
+		from sklearn.model_selection import GridSearchCV
+		from sklearn.neural_network import MLPClassifier
+		import warnings
+		warnings.filterwarnings('ignore', category=FutureWarning)
+		warnings.filterwarnings('ignore', category=DeprecationWarning)
+		import pandas as pd
+		from sklearn.model_selection import train_test_split
+PCA com dados de treinamento e PCA com dados de teste >
+	Avaliar distribuição e qualidade dos conjuntos selecionados
+Matriz de confusão >
+Indução do modelo de Multilayer perceptrion >
+	Precision - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate.
+	Precision = TP/TP+FP
+	Recall (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. The question recall answers is: Of all the passengers that truly survived, how many did we label? 
+	Recall = TP/TP+FN
+	F1 score - F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall.
+	F1 Score = 2*(Recall * Precision) / (Recall + Precision)
+	Importando bibliotecas >
+		from sklearn.neural_network import MLPClassifier
+		import warnings
+		warnings.filterwarnings('ignore')
+		from sklearn.metrics import confusion_matrix
+
 
 
 
