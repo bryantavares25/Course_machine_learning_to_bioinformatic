@@ -110,15 +110,20 @@ Leitura dos dados >
 		$\mbox{Balance} = \frac{H}{\log{k}} = \frac{-\sum_{ i = 1}^k \frac{c_i}{n} \log{ \frac{c_i}{n}}.  } {\log{k}}$
 		which is equal to: 0 for a unbalanced data set | 1 for a balanced data set
 	Equilibrar os dados para treino >
-		Rando sampling >
-		Random oversampling involves randomly selecting examples from the minority class, with replacement, and adding them to the training dataset. Random undersampling involves randomly selecting examples from the majority class and deleting them from the training dataset.
-		Importando bibliotecas >
-			from sklearn.neural_network import MLPClassifier
-			import warnings
-			from imblearn.over_sampling import RandomOverSampler
-			warnings.filterwarnings('ignore')
-			from sklearn.metrics import confusion_matrix
+		Random sampling >
+			Random oversampling involves randomly selecting examples from the minority class, with replacement, and adding them to the training dataset. Random undersampling involves randomly selecting examples from the majority class and deleting them from the training dataset.
+			Importando bibliotecas >
+				from imblearn.over_sampling import RandomOverSampler
+				from imblearn.under_sampling import RandomUnderSampler
+		# Synthetic Minority Oversampling Technique
+			SMOTE works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample at a point along that line.
+			Specifically, a random example from the minority class is first chosen. Then k of the nearest neighbors for that example are found (typically k=5). A randomly selected neighbor is chosen and a synthetic example is created at a randomly selected point between the two examples in feature space.
+		# Combination of SMOTE and Tomek Links Undersampling
+			SMOTE is an oversampling method that synthesizes new plausible examples in the minority class.
+			Tomek Links refers to a method for identifying pairs of nearest neighbors in a dataset that have different classes. Removing one or both of the examples in these pairs (such as the examples in the majority class) has the effect of making the decision boundary in the training dataset less noisy or ambiguous.
+			Specifically, first the SMOTE method is applied to oversample the minority class to a balanced distribution, then examples in Tomek Links from the majority classes are identified and removed.
 
+			
 
 
 Multilayer Perceptron: Fit and evaluate a model > In this section, we will fit and evaluate a simple Multilayer Perceptron model.
