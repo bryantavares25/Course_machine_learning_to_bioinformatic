@@ -47,9 +47,9 @@ Leitura dos dados >
 		from sklearn.decomposition import PCA
 	Visualizando os dados de acordo com as características (feat*ures) através de uma 'Scatter matrix' e sobrrevivência como 'Label'
 	Redução de dimensionalidade através do PCA (Principal component analysis) de 2 componentes (dá para brincar tirando as caracterísitcas para observar qual tem mais efeito sobre a correlação dos dados)
-
-Fracionamento dos dados entre dados de treino, validação e teste
-
+Fracionamento dos dados entre dados de treino, validação e teste >
+	Os dados foram fracionado com o comando 'train_test_split' com 0.6 para treino, 0.2 para validação e 0.2 para teste 
+Criando arquivos com os dados fracionados tanto a versão com as características (features) quando com a etiqueta (label)
 
 
 
