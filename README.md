@@ -34,12 +34,13 @@ Limpando variáveis contínuas >
 Limpando variáveis categóricas >
 	Cabine
 	Sexo
-Criando arquivo com dados limpos > 'titanic_cleaned.csv'
+Criando arquivo com dados limpos >
+	'titanic_cleaned.csv'
 
 ### Notebook_02
 
 Leitura dos dados >
-	Importando bibliotecas
+	Importando bibliotecas >
 		import pandas as pd
 		from sklearn.model_selection import train_test_split
 		import plotly.express as px
@@ -49,11 +50,17 @@ Leitura dos dados >
 	Redução de dimensionalidade através do PCA (Principal component analysis) de 2 componentes (dá para brincar tirando as caracterísitcas para observar qual tem mais efeito sobre a correlação dos dados)
 Fracionamento dos dados entre dados de treino, validação e teste >
 	Os dados foram fracionado com o comando 'train_test_split' com 0.6 para treino, 0.2 para validação e 0.2 para teste 
-Criando arquivos com os dados fracionados tanto a versão com as características (features) quando com a etiqueta (label)
+Criando arquivos com os dados fracionados tanto a versão com as características (features) quando com a etiqueta (label) >
+	'train_features.csv'
+	'val_features.csv'
+	'test_features.csv'
+	'train_labels.csv'
+	'val_labels.csv'
+	'test_labels.csv'
 
+### Notebook_03
 
-
-Notebook_03
+Multilayer Perceptron: Fit and evaluate a model
 
 
 
