@@ -100,6 +100,25 @@ Leitura dos dados >
 		warnings.filterwarnings('ignore', category=DeprecationWarning)
 		import pandas as pd
 		from sklearn.model_selection import train_test_split
+	Shannon entropy as a measure of balance >
+		On a data set of n instances, if you have k classes of size ci you can compute entropy as follows:
+		$H = -\sum_{ i = 1}^k \frac{c_i}{n} \log{ \frac{c_i}{n}}$.
+		This is equal to:
+		0 when there is one single class. In other words, it tends to 0 when your data set is very unbalanced
+		logk when all your classes are balanced of the same size $\frac{n}{k}$
+		Therefore, you could use the following measure of Balance for a data set:
+		$\mbox{Balance} = \frac{H}{\log{k}} = \frac{-\sum_{ i = 1}^k \frac{c_i}{n} \log{ \frac{c_i}{n}}.  } {\log{k}}$
+		which is equal to: 0 for a unbalanced data set | 1 for a balanced data set
+	Equilibrar os dados para treino >
+		Rando sampling >
+		Random oversampling involves randomly selecting examples from the minority class, with replacement, and adding them to the training dataset. Random undersampling involves randomly selecting examples from the majority class and deleting them from the training dataset.
+		Importando bibliotecas >
+			from sklearn.neural_network import MLPClassifier
+			import warnings
+			from imblearn.over_sampling import RandomOverSampler
+			warnings.filterwarnings('ignore')
+			from sklearn.metrics import confusion_matrix
+
 
 
 Multilayer Perceptron: Fit and evaluate a model > In this section, we will fit and evaluate a simple Multilayer Perceptron model.
