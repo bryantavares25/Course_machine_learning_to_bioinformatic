@@ -126,7 +126,12 @@ Leitura dos dados >
 
 ### Notebook_05
 	Leitura dos dados >
-	
-	
+		Importando bibliotecas >
+		Matriz de confusão >
 	Seleção de características (Feature selection) >
+
+	# Classificador MLP + CV 30/70 sem realizar Balanceamento de Classe
+	
+	# Balanceamento de Classe usando SMOTE + Classificador MLP + CV 30/70
+
 
