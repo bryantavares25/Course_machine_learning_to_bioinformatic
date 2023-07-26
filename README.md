@@ -129,9 +129,15 @@ Leitura dos dados >
 		Importando bibliotecas >
 		Matriz de confusão >
 	Seleção de características (Feature selection) >
-
 	# Classificador MLP + CV 30/70 sem realizar Balanceamento de Classe
-	
 	# Balanceamento de Classe usando SMOTE + Classificador MLP + CV 30/70
-
-
+	# Univariate feature selection
+		A seleção de características univariadas funciona através da seleção das melhores características com base em testes estatísticos univariados. Pode ser visto como uma etapa de pré-processamento para um estimador.
+		SelectKBest removes all but the  highest scoring features
+		SelectPercentile removes all but a user-specified highest scoring percentage of features using common univariate statistical tests for each feature: false positive rate SelectFpr, false discovery rate SelectFdr, or family wise error SelectFwe.
+	# Ranking de importancia de features
+	Indução do modelo com as 4 melhores características >
+	Indução do modelo com as 2 melhores características >
+	
+	# Correlation Matrix with Heatmap
+	Correlation states how the features are related to each other or the target variable. Correlation can be positive (increase in one value of feature increases the value of the target variable) or negative (increase in one value of feature decreases the value of the target variable). Heatmap makes it easy to identify which features are most related to the target variable, we will plot heatmap of correlated features using the seaborn library.
